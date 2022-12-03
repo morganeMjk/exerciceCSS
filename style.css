@@ -54,13 +54,38 @@ body{
 .colonne_menu{
     background-color: gold;
 }
-.colonne_contenu {
+.colonne_menu , .colonnes {
     background-color: #5f9ea0;
-    margin: 15px;
+}
+.colonne_menu ul {
+    margin: 0px;
+    padding: 0px;
+}
+.colonne_menu li {
+    list-style-type: none;
+    background-color: #ffd700;
+    padding: 5px;
+    text-align: center;
+}
+.colonne_menu li:hover {
+    background-color: blueviolet;
+}
+.colonne_menu a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: 5px;
+}
+
+.colonne_contenu {
+    background-color: antiquewhite;
+    margin-left: 215px;
+    padding: 15px;
 }
 h1 {
     background-color: #f5f5f5;
     margin: 10px;
+    padding: 10px;
     margin-bottom: 20px;
     border-bottom: 5px solid rgb(134, 91, 236);
 }
@@ -68,6 +93,7 @@ h1 {
     font-style: italic;
     border: 1px solid #135457;
     margin: 10px;
+    padding: 10px;
     border-radius: 10px;
 }
 h2 {
@@ -76,10 +102,10 @@ h2 {
     margin: 20px;
     font-variant: small-caps;
 }
-a {
+p a {
     font-weight: bold;
 }
-a:hover {
+p a:hover {
     color: red;
     text-decoration: none;
 }
