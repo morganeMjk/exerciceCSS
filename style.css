@@ -36,8 +36,20 @@ body{
 .page {
 }
 .entete{
-    background-color: hotpink;
+    background-color:#778899;
+    padding: 10px;
 }
+.titre {
+    font-size: 30px;
+    color: antiquewhite;
+}
+.slogan {
+    font-size: 22px;
+    color: antiquewhite;
+    font-style: italic;
+}
+
+
 .colonnes {
     background-color: deepskyblue;
 }
